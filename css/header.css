@@ -1,0 +1,77 @@
+header{
+    width: 100vw;
+    height: 63vh;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(87, 137, 146);
+}
+
+.logo-bloxfruts{
+    width: auto;
+    height: 63vh;
+}
+ 
+@media(max-width: 1560px){
+    header{
+        width: 100vw;
+        height: 60vh;
+    
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: center;
+        align-items: center;
+    
+        background-color: rgb(87, 137, 146);
+    }
+
+    .logo-bloxfruts{
+        width: auto;
+        height: 60vh;
+ }      
+}
+
+@media(max-width: 821px){
+    header{
+        width: 100vw;
+        height: 40vh;
+    
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: center;
+        align-items: center;
+    
+        background-color: rgb(87, 137, 146);
+    }
+
+    .logo-bloxfruts{
+        width: auto;
+        height: 40vh;
+ }      
+}
+
+@media(max-width: 480px){
+    header{
+        width: 100vw;
+        height: 20vh;
+    
+        display: flex;
+        flex-direction: row;
+    
+        justify-content: center;
+        align-items: center;
+    
+        background-color: rgb(87, 137, 146);
+    }
+
+    .logo-bloxfruts{
+        width: auto;
+        height: 20vh;
+ }      
+}

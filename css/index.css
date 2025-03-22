@@ -1,0 +1,35 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./link.css);
+@import url(./footer.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    background: aqua;
+
+    overflow-x: hidden;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(212, 25, 25);
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+
+li{
+    font-size: 25px;
+}
+
+.videos{
+    font-size: 15px;
+}
+

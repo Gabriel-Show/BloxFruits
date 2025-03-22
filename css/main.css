@@ -1,0 +1,277 @@
+main {
+    width: 90vw;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 0 4vw;
+}
+
+.jogo {
+    width: 90vw;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem {
+    width: auto;
+    height: 46vh;
+}
+
+.jogo div {
+    width: 46vw;
+}
+
+.fruta {
+    width: 90vw;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video {
+    width: 55vw;
+    height: 48vh;
+}
+
+.fruta div {
+    width: 52vw;
+}
+
+.raca {
+    width: 90vw;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.raças {
+    width: auto;
+    height: 50vh;
+}
+
+
+@media(max-width: 1560px) {
+
+    main {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 0 4vw;
+    }
+
+    .jogo {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .imagem {
+        width: auto;
+        height: 44vh;
+    }
+
+    .jogo div {
+        width: 50vw;
+    }
+
+    .fruta {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: row-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video {
+        width: 45vw;
+        height: 39vh;
+    }
+
+    .fruta div {
+        width: 50vw;
+    }
+
+    .raca {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: row-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .raças {
+        width: auto;
+        height: 39vh;
+    }
+
+
+}
+
+@media(max-width: 821px) {
+
+    main {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 0 4vw;
+    }
+
+    .jogo {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .imagem {
+        width: auto;
+        height: 30vh;
+    }
+
+    .jogo div {
+        width: 90vw;
+    }
+
+    .fruta {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .fruta div {
+        width: 90vw;
+    }
+
+    .raca {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .raças {
+        width: auto;
+        height: 30vh;
+    }
+
+    .raca div {
+        width: 90vw;
+    }
+
+}
+
+@media(max-width: 480px) {
+
+    main {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 0 4vw;
+    }
+
+    .jogo {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .imagem {
+        width: auto;
+        height: 20vh;
+    }
+
+    .jogo div {
+        width: 90vw;
+    }
+
+    .fruta {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video {
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .fruta div {
+        width: 90vw;
+    }
+
+    .raca {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .raças {
+        width: auto;
+        height: 20vh;
+    }
+
+    .raca div {
+        width: 90vw;
+    }
+
+}
