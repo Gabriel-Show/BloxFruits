@@ -1,4 +1,4 @@
-header{
+header {
     width: 100vw;
     height: 63vh;
 
@@ -8,70 +8,100 @@ header{
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(87, 137, 146);
+    background-image: url("https://th.bing.com/th/id/OIP.R_TiGJpDjlmx-CbCE8dfuQHaEJ?w=626&h=351&rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.logo-bloxfruts{
+.logo-bloxfruts {
     width: auto;
     height: 63vh;
+
+    transition: all 0.1s ease-in-out;
+    animation: 2s linear pulsar infinite;
+    ;
 }
- 
-@media(max-width: 1560px){
-    header{
+
+@keyframes pulsar {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.roblox{
+    position: absolute;
+    left: -2.5vw;
+}
+
+.roblox img{
+    width: auto;
+    height: 10vh;
+}
+
+@media(max-width: 1560px) {
+    header {
         width: 100vw;
         height: 60vh;
-    
+
         display: flex;
         flex-direction: row;
-    
+
         justify-content: center;
         align-items: center;
-    
+
         background-color: rgb(87, 137, 146);
     }
 
-    .logo-bloxfruts{
+    .logo-bloxfruts {
         width: auto;
         height: 60vh;
- }      
+    }
 }
 
-@media(max-width: 821px){
-    header{
+@media(max-width: 821px) {
+    header {
         width: 100vw;
         height: 40vh;
-    
+
         display: flex;
         flex-direction: row;
-    
+
         justify-content: center;
         align-items: center;
-    
+
         background-color: rgb(87, 137, 146);
     }
 
-    .logo-bloxfruts{
+    .logo-bloxfruts {
         width: auto;
         height: 40vh;
- }      
+    }
 }
 
-@media(max-width: 480px){
-    header{
+@media(max-width: 480px) {
+    header {
         width: 100vw;
         height: 20vh;
-    
+
         display: flex;
         flex-direction: row;
-    
+
         justify-content: center;
         align-items: center;
-    
+
         background-color: rgb(87, 137, 146);
     }
 
-    .logo-bloxfruts{
+    .logo-bloxfruts {
         width: auto;
         height: 20vh;
- }      
+    }
 }
