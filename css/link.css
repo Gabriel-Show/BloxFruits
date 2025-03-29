@@ -6,12 +6,19 @@
 
     justify-content: space-between;
     align-items: start;
-}
 
+    transition: all 0.2s ease-in-out;
+ }
+.videos:hover{
+    transform: scale(1.2);
+
+}
 .videos{
     display: flex;
     flex-direction: column;
 
     justify-content: space-between;
     align-items: start;
+
+
 }

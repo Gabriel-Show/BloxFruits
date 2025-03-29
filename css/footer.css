@@ -29,6 +29,11 @@ footer a{
     font-size: 1.3vw;
 
     color: rgb(23, 7, 248);
+
+    transition: all 0.2s ease-in-out;
+}
+footer a:hover{
+    transform: scale(1.6);
 }
 
 @media(max-width: 480px){
